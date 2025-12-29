@@ -1,4 +1,4 @@
-package br.com.detran.praticandoconceitos;
+package br.com.detran.praticandoconceitos.nivel1;
 
 public class Cliente {
     private int id;
