@@ -2,13 +2,16 @@ package br.com.detran.praticandoconceitos.nivel3_1;
 
 public class Aluno {
 
+    //atributos
     private int id;
     private String nome;
     private double nota1;
     private double nota2;
 
+    //construtor vazio
     public Aluno(){}
 
+    //construtor cheio
     public Aluno(int id, String nome, double nota1, double nota2){
         this.id = id;
         this.nome = nome;
@@ -16,37 +19,40 @@ public class Aluno {
         this.nota2 = nota2;
     }
 
-    public int getId() {
+    //getter's e setter's
+    public int getId(){
         return id;
     }
-    public void setId(int id) {
+
+    public void setId(int id){
         this.id = id;
     }
-    public String getNome() {
+
+    public String getNome(){
         return nome;
     }
 
-    public void setNome(String nome) {
+    public void setNome(String nome){
         this.nome = nome;
     }
 
-    public double getNota1() {
+    public double getNota1(){
         return nota1;
     }
 
-    public void setNota1(double nota1) {
+    public void setNota1(double nota1){
         this.nota1 = nota1;
     }
 
-    public double getNota2() {
+    public double getNota2(){
         return nota2;
     }
 
-    public void setNota2(double nota2) {
+    public void setNota2(double nota2){
         this.nota2 = nota2;
     }
 
-    public double calcularMedia(double nota1, double nota2){
+    public double calcularMedia(){
         return (nota1 + nota2) / 2;
     }
 }
