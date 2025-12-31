@@ -12,7 +12,7 @@ public class AlunoController {
     e no construtor AlunoController() nós criamos o objeto real que permitirá a utilização efetiva desses métodos.
      */
 
-    //"injeção manual de dependências (!!!).
+    //"injeção manual de dependências" (!!!).
     public AlunoController(){
         this.service = new AlunoService();
     }
